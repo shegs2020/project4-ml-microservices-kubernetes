@@ -17,11 +17,10 @@ The goal of this project is to operationalize a working, machine learning micros
 * Deployed a container using Kubernetes and made a prediction
 * Uploaded a complete Github repo with CircleCI to indicate that my code has been tested
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
 ## Instructions
-**how to run the Python scripts and web app**
+**How to run the Python scripts and web app:**
 ### Setup the Environment
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
 ```bash
