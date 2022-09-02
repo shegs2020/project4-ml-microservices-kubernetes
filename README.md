@@ -21,6 +21,12 @@ The goal of this project is to operationalize a working, machine learning micros
 ---
 ## Instructions
 **How to run the Python scripts and web app:**
+
+### Requirements
+ - Python 3.7 or higher
+ - Docker
+ - Kubernetes
+
 ### Setup the Environment
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
 ```bash
@@ -36,8 +42,8 @@ source .devops/bin/activate
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+2. Run app in Docker:  `./run_docker.sh`
+3. Run app in Kubernetes:  `./run_kubernetes.sh`
 
 ### Kubernetes Steps
 
