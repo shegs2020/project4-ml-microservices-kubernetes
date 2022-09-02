@@ -6,10 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath="sheggz007/udacityproject4:v1.0"
 
 # Step 2:  
 # Authenticate & tag
+docker logout
+docker login -u "sheggz007" -p "w,Pjf+V6mE%qbEO^8oG)" docker.io 
+docker tag udacityproject4 ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push ${dockerpath}
