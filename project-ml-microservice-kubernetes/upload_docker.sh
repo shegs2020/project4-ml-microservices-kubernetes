@@ -11,7 +11,7 @@ dockerpath="sheggz007/udacityproject4:v1.0"
 # Step 2:  
 # Authenticate & tag
 docker logout
-docker login -u "sheggz007" -p "w,Pjf+V6mE%qbEO^8oG)" docker.io 
+docker login
 docker tag udacityproject4 ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
